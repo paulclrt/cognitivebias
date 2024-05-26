@@ -24,23 +24,32 @@
             </g>
         </svg>
 
-        <div class="middle-col" id="data">
+        <div class="middle">
+            <div class="middle-col" id="data">
             
+            </div>
+            <div class="buttons">
+                <div class="previous" onclick="scroll('previous')"></div>
+                <div class="next" onclick="scroll('next')"></div>
+            </div>
         </div>
         <div class="right-col">
-            
+            <h1 id="sectiontitle"></h1>
         </div>
     </section>
 </body>
 
     <!-- <script src="index.js"  type="module"></script> -->
     <script>
+        var globaldata;
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(xhttp.responseText);
             // console.log("test")
             // console.log(data)
+
+            globaldata = data;
 
 
                         
@@ -50,7 +59,7 @@
             for (let quickphrase of data.children) {
                 // console.log(quickphrase.name, quickphrase.children)
                 section_count+=1
-                listHTML+=`<p id="cc${section_count}">${quickphrase.name}</p>`
+                listHTML+=`<h2 id="cc${section_count}">${quickphrase.name}</h2>`
                 for (let half_bias of quickphrase.children) {
                     count+=1
                     // console.log(half_bias, half_bias.children)
@@ -65,12 +74,13 @@
             // console.log(document.getElementById("data"))
             listHTML+=`<div class="glass"></div>`
             document.getElementById("data").innerHTML = listHTML
+            document.getElementById("sectiontitle").innerText = globaldata.children[0].name;
+            document.getElementById("sectiontitle").classList.add("titlesectionanim")
+            document.getElementsByClassName("right-col")[0].classList.add("sc1")
         }
         };
         xhttp.open("GET", "./biases.json", true);
         xhttp.send();
-
-
 
 
 
@@ -97,12 +107,38 @@
                         }
                     }
                 }
+
+                document.getElementById("sectiontitle").innerText = globaldata.children[section-1].name;
+                document.getElementsByClassName("right-col")[0].classList.remove("sc1", "sc2", "sc3", "sc4")
+                let sc= `sc${section}`
+                document.getElementsByClassName("right-col")[0].classList.add(sc)
+                document.getElementById("sectiontitle").style.animation="none"
+
+                document.getElementById("sectiontitle").style.animation = "titleanim 2s ease-in-out 0 1 forwards"
+                // console.log(globaldata.children[section-1])
             }
-            console.log(section)
 
             // check if an element is near the glass, if so, move it like a magnet into the glass (same resistance for leaving the glass)
+
+            let lis = document.getElementsByTagName("li")
+            let conatiner = document.getElementById("data")
+            
         }
         
+        
+
+        function scroll(direction) {
+            if (direction != "previous" && direction != "next") {
+                return;
+            }
+
+            const glass = document.getElementById("glass")
+            const glassbox = glass.getBoundingClientRect()
+
+            
+
+
+        }
        
     </script>
 </html>
