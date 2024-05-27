@@ -26,7 +26,7 @@
 
         <div class="middle">
             <div class="middle-col" id="data">
-            
+                
             </div>
             <div class="buttons">
                 <div class="previous" onclick="scroll('previous')"></div>
@@ -54,20 +54,21 @@
 
 
                             
-                var listHTML = ``
+                var listHTML = `<div class="paddingdiv" style="min-height: 100vh; display: block;"></div>`
                 var section_count = 0
                 var count = 0
                 for (let quickphrase of data.children) {
                     // console.log(quickphrase.name, quickphrase.children)
                     section_count+=1
                     listHTML+=`<h2 id="cc${section_count}">${quickphrase.name}</h2>`
+                    section_count === 1 ? listHTML +=`<li class="fakeli" style="color:white;">aaa</li>` : listHTML+=``// need this because scroll does seem to take into account the first li
                     for (let half_bias of quickphrase.children) {
                         count+=1
                         // console.log(half_bias, half_bias.children)
                         // listHTML+=`<ul class="bias sc${section_count} c${count}">`
                         for (let bias of half_bias.children) {
                             // console.log(bias)
-                            listHTML+= `<li clas="biasli sc${section_count} c${count}">${bias.name}</li>`
+                            listHTML+= `<li class="biasli sc${section_count} c${count}">${bias.name}</li>`
                         }
                         // listHTML+=`</ul>`
                     }
