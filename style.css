@@ -31,8 +31,14 @@ section#main {
     flex-direction: column;
     overflow-y: auto;
     /* overscroll-behavior: ; */
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 .middle-col::-webkit-scrollbar { display: none; } .middle-col { -ms-overflow-style: none;   scrollbar-width: none;  } /* Disable scroll bar*/
+
+.middle-col > li {
+    scroll-snap-align: center;
+}
 
 .buttons {
     height: 10vh;
@@ -65,11 +71,9 @@ section#main {
     background-color: transparent;
 }
 
-ul.bias li {
-    margin: 3em 0 3em 0;
-}
-
-ul li {
+li {
+    margin: 0.5em 0 0.5em 0;
+    padding: 1em 0 1em 0;
     list-style-type: none;
 }
 
@@ -87,18 +91,18 @@ ul li {
     100% {opacity: 1; clip-path: rect(100%, 100%);}
 }
 
-.sc1 * { /*Too much information*/
+.sc1 { /*Too much information*/
     color: #009a89;
 }
 
-.sc2 * { /*Not enough meaning*/
+.sc2 { /*Not enough meaning*/
     color: #0078ac;
 }
 
-.sc3 * { /*Need to act fast*/
+.sc3 { /*Need to act fast*/
     color: #429a00;
 }
 
-.sc4 * { /*What should we remember*/
+.sc4 { /*What should we remember*/
     color: #898989;
 }

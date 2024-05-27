@@ -39,106 +39,108 @@
     </section>
 </body>
 
-    <!-- <script src="index.js"  type="module"></script> -->
+
     <script>
-        var globaldata;
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-            var data = JSON.parse(xhttp.responseText);
-            // console.log("test")
-            // console.log(data)
+ 
+            var globaldata;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(xhttp.responseText);
+                // console.log("test")
+                // console.log(data)
 
-            globaldata = data;
+                globaldata = data;
 
 
-                        
-            var listHTML = ``
-            var section_count = 0
-            var count = 0
-            for (let quickphrase of data.children) {
-                // console.log(quickphrase.name, quickphrase.children)
-                section_count+=1
-                listHTML+=`<h2 id="cc${section_count}">${quickphrase.name}</h2>`
-                for (let half_bias of quickphrase.children) {
-                    count+=1
-                    // console.log(half_bias, half_bias.children)
-                    listHTML+=`<ul class="bias sc${section_count} c${count}">`
-                    for (let bias of half_bias.children) {
-                        // console.log(bias)
-                        listHTML+= `<li>${bias.name}</li>`
+                            
+                var listHTML = ``
+                var section_count = 0
+                var count = 0
+                for (let quickphrase of data.children) {
+                    // console.log(quickphrase.name, quickphrase.children)
+                    section_count+=1
+                    listHTML+=`<h2 id="cc${section_count}">${quickphrase.name}</h2>`
+                    for (let half_bias of quickphrase.children) {
+                        count+=1
+                        // console.log(half_bias, half_bias.children)
+                        // listHTML+=`<ul class="bias sc${section_count} c${count}">`
+                        for (let bias of half_bias.children) {
+                            // console.log(bias)
+                            listHTML+= `<li clas="biasli sc${section_count} c${count}">${bias.name}</li>`
+                        }
+                        // listHTML+=`</ul>`
                     }
-                    listHTML+=`</ul>`
                 }
+                // console.log(document.getElementById("data"))
+                listHTML+=`<div class="glass"></div>`
+                document.getElementById("data").innerHTML = listHTML
+                document.getElementById("sectiontitle").innerText = globaldata.children[0].name;
+                document.getElementById("sectiontitle").classList.add("titlesectionanim")
+                document.getElementsByClassName("right-col")[0].classList.add("sc1")
             }
-            // console.log(document.getElementById("data"))
-            listHTML+=`<div class="glass"></div>`
-            document.getElementById("data").innerHTML = listHTML
-            document.getElementById("sectiontitle").innerText = globaldata.children[0].name;
-            document.getElementById("sectiontitle").classList.add("titlesectionanim")
-            document.getElementsByClassName("right-col")[0].classList.add("sc1")
-        }
-        };
-        xhttp.open("GET", "./biases.json", true);
-        xhttp.send();
+            };
+            xhttp.open("GET", "./biases.json", true);
+            xhttp.send();
 
 
 
-        function checkVisible(elm) {
-            var rect = elm.getBoundingClientRect();
-            var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-            return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
-        }
+            function checkVisible(elm) {
+                var rect = elm.getBoundingClientRect();
+                var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+                return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+            }
 
 
-        document.getElementById("data").onscroll= () => {
-            var section = 0;
-            for (let i = 1; i < 5; i++) {
-                let e = document.getElementsByClassName(`sc${i}`)
-                for (let el of e) {
-                    let res = checkVisible(el)
-                    if (res === true) {
-                        if (el.classList.contains("sc1")) {section=1}
-                        else if (el.classList.contains("sc2")) {section=2}
-                        else if (el.classList.contains("sc3")) {section=3}
-                        else if (el.classList.contains("sc4")) {section=4}
-                        else {
-                            section=0
+            document.getElementById("data").onscroll= () => {
+                var section = 0;
+                for (let i = 1; i < 5; i++) {
+                    let e = document.getElementsByClassName(`sc${i}`)
+                    for (let el of e) {
+                        let res = checkVisible(el)
+                        if (res === true) {
+                            if (el.classList.contains("sc1")) {section=1}
+                            else if (el.classList.contains("sc2")) {section=2}
+                            else if (el.classList.contains("sc3")) {section=3}
+                            else if (el.classList.contains("sc4")) {section=4}
+                            else {
+                                section=0
+                            }
                         }
                     }
+
+                    document.getElementById("sectiontitle").innerText = globaldata.children[section-1].name;
+                    document.getElementsByClassName("right-col")[0].classList.remove("sc1", "sc2", "sc3", "sc4")
+                    let sc= `sc${section}`
+                    document.getElementsByClassName("right-col")[0].classList.add(sc)
+                    document.getElementById("sectiontitle").style.animation="none"
+
+                    document.getElementById("sectiontitle").style.animation = "titleanim 2s ease-in-out 0 1 forwards"
+                    // console.log(globaldata.children[section-1])
                 }
 
-                document.getElementById("sectiontitle").innerText = globaldata.children[section-1].name;
-                document.getElementsByClassName("right-col")[0].classList.remove("sc1", "sc2", "sc3", "sc4")
-                let sc= `sc${section}`
-                document.getElementsByClassName("right-col")[0].classList.add(sc)
-                document.getElementById("sectiontitle").style.animation="none"
+                // check if an element is near the glass, if so, move it like a magnet into the glass (same resistance for leaving the glass)
 
-                document.getElementById("sectiontitle").style.animation = "titleanim 2s ease-in-out 0 1 forwards"
-                // console.log(globaldata.children[section-1])
+                let lis = document.getElementsByTagName("li")
+                let conatiner = document.getElementById("data")
+                
             }
-
-            // check if an element is near the glass, if so, move it like a magnet into the glass (same resistance for leaving the glass)
-
-            let lis = document.getElementsByTagName("li")
-            let conatiner = document.getElementById("data")
             
-        }
-        
-        
-
-        function scroll(direction) {
-            if (direction != "previous" && direction != "next") {
-                return;
-            }
-
-            const glass = document.getElementById("glass")
-            const glassbox = glass.getBoundingClientRect()
-
             
 
+            function scroll(direction) {
+                if (direction != "previous" && direction != "next") {
+                    return;
+                }
 
-        }
+                const glass = document.getElementById("glass")
+                const glassbox = glass.getBoundingClientRect()
+
+                
+
+
+            }
+        
        
     </script>
 </html>
