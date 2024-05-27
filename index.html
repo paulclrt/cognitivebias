@@ -73,6 +73,8 @@
                         // listHTML+=`</ul>`
                     }
                 }
+                listHTML +=`<li class="fakeli" style="color:white;min-height: 50vh;">aaa</li>`// need this because scroll does seem to take into account the first li
+                    
                 // console.log(document.getElementById("data"))
                 listHTML+=`<div class="glass"></div>`
                 document.getElementById("data").innerHTML = listHTML
