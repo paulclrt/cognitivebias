@@ -35,7 +35,7 @@
         </div>
         <div class="right-col">
             <h1 id="sectiontitle"></h1>
-            <p id="wikilink"></p>
+            <p id="wikilink" style="overflow-x: hidden;"></p>
         </div>
     </section>
 </body>
@@ -60,7 +60,7 @@
                     // console.log(quickphrase.name, quickphrase.children)
                     section_count+=1
                     listHTML+=`<h2 id="cc${section_count}">${quickphrase.name}</h2>`
-                    section_count === 1 ? listHTML +=`<li class="fakeli" style="color:white;">aaa</li>` : listHTML+=``// need this because scroll does seem to take into account the first li
+                     listHTML +=`<li class="fakeli" style="color:white;">aaa</li>`// need this because scroll does seem to take into account the first li
                     for (let half_bias of quickphrase.children) {
                         count+=1
                         // console.log(half_bias, half_bias.children)
