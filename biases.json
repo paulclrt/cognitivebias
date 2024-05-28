@@ -9,30 +9,30 @@
        {
        "name": "We notice things already primed in memory or repeated often.",
         "children": [
-         {"name": "Availability heuristic"},
-         {"name": "Attentional bias"},
-         {"name": "Illusory truth effect"},
-         {"name": "Mere exposure effect"},
-         {"name": "Context effect"},
-         {"name": "Cue-dependent forgetting"},
-         {"name": "Mood-congruent memory bias"},
-         {"name": "Frequency illusion"},
-         {"name": "Baader-Meinhof Phenomenon"},
-         {"name": "Empathy gap"},
-         {"name": "Omission bias"},
-         {"name": "Base rate fallacy"}
+{"name": "Availability heuristic", "link": "https:\/\/en.wikipedia.org\/wiki\/Availability_heuristic"},
+{"name": "Attentional bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Attentional_bias"},
+{"name": "Illusory truth effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusory_truth_effect"},
+{"name": "Mere exposure effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Mere-exposure_effect"},
+{"name": "Context effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Context_effect"},
+{"name": "Cue-dependent forgetting", "link": "https:\/\/en.wikipedia.org\/wiki\/Cue-dependent_forgetting"},
+{"name": "Mood-congruent memory bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Mood_congruence"},
+{"name": "Frequency illusion", "link": "https:\/\/en.wikipedia.org\/wiki\/Frequency_illusion"},
+{"name": "Baader-Meinhof Phenomenon", "link": "https:\/\/en.wikipedia.org\/wiki\/Frequency_illusion"},
+{"name": "Empathy gap", "link": "https:\/\/en.wikipedia.org\/wiki\/Empathy_gap"},
+{"name": "Omission bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Omission_bias"},
+{"name": "Base rate fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Base_rate_fallacy"}
         ]
        },
    
        {
          "name": "Bizarre/funny/visually-striking/anthropomorphic things stick out more than non-bizarre/unfunny things.",
          "children": [
-           {"name": "Bizarreness effect"},
-           {"name": "Humor effect"},
-           {"name": "Von Restorff effect"},
-           {"name": "Picture superiority effect"},
-           {"name": "Self-relevance effect"},
-           {"name": "Negativity bias"}
+{"name": "Bizarreness effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Bizarreness_effect"},
+{"name": "Humor effect", "link": "https:\/\/en.wikipedia.org\/wiki\/List_of_cognitive_biases#Humor_effect"},
+{"name": "Von Restorff effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Von_Restorff_effect"},
+{"name": "Picture superiority effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Picture_superiority_effect"},
+{"name": "Self-relevance effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Self-reference_effect"},
+{"name": "Negativity bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Negativity_bias"}
          ]
        },
    
@@ -40,14 +40,14 @@
          "name": "We notice when something has changed.",
          "children": [
    
-           {"name": "Anchoring"},
-           {"name": "Conservatism"},
-           {"name": "Contrast effect"},
-           {"name": "Distinction bias"},
-           {"name": "Focusing effect"},
-           {"name": "Framing effect"},
-           {"name": "Money illusion"},
-           {"name": "Weber–Fechner law"}
+{"name": "Anchoring", "link": "https:\/\/en.wikipedia.org\/wiki\/Anchoring_(cognitive_bias)"},
+{"name": "Conservatism", "link": "https:\/\/en.wikipedia.org\/wiki\/Conservatism_(belief_revision)"},
+{"name": "Contrast effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Contrast_effect"},
+{"name": "Distinction bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Distinction_bias"},
+{"name": "Focusing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Anchoring_(cognitive_bias)"},
+{"name": "Framing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Framing_effect_(psychology)"},
+{"name": "Money illusion", "link": "https:\/\/en.wikipedia.org\/wiki\/Money_illusion"},
+{"name": "Weber–Fechner law", "link": "https:\/\/en.wikipedia.org\/wiki\/Weber–Fechner_law"}
    
          ]
        },
@@ -56,19 +56,19 @@
          "name": "We are drawn to details that confirm our own existing beliefs",
          "children": [
    
-           {"name": "Confirmation bias"},
-           {"name": "Congruence bias"},
-           {"name": "Post-purchase rationalization"},
-           {"name": "Choice-supportive bias"},
-           {"name": "Selective perception"},
-           {"name": "Observer-expectancy effect"},
-           {"name": "Experimenter's bias"},
-           {"name": "Observer effect"},
-           {"name": "Expectation bias"},
-           {"name": "Ostrich effect"},
-           {"name": "Subjective validation"},
-           {"name": "Continued influence effect"},
-           {"name": "Semmelweis reflex"}
+{"name": "Confirmation bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Confirmation_bias"},
+{"name": "Congruence bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Congruence_bias"},
+{"name": "Post-purchase rationalization", "link": "https:\/\/en.wikipedia.org\/wiki\/Choice-supportive_bias"},
+{"name": "Choice-supportive bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Choice-supportive_bias"},
+{"name": "Selective perception", "link": "https:\/\/en.wikipedia.org\/wiki\/Selective_perception"},
+{"name": "Observer-expectancy effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Observer-expectancy_effect"},
+{"name": "Experimenter's bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Observer-expectancy_effect"},
+{"name": "Observer effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Observer-expectancy_effect"},
+{"name": "Expectation bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Observer-expectancy_effect"},
+{"name": "Ostrich effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Ostrich_effect"},
+{"name": "Subjective validation", "link": "https:\/\/en.wikipedia.org\/wiki\/Subjective_validation"},
+{"name": "Continued influence effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Confirmation_bias#continued_influence_effect"},
+{"name": "Semmelweis reflex", "link": "https:\/\/en.wikipedia.org\/wiki\/Semmelweis_reflex"}
    
          ]
        },
@@ -77,9 +77,9 @@
          "name": "We notice flaws in others more easily than flaws in ourselves.",
          "children": [
    
-           {"name": "Bias blind spot"},
-           {"name": "Naïve cynicism"},
-           {"name": "Naïve realism"}
+{"name": "Bias blind spot", "link": "https:\/\/en.wikipedia.org\/wiki\/Bias_blind_spot"},
+{"name": "Naïve cynicism", "link": "https:\/\/en.wikipedia.org\/wiki\/Naïve_cynicism"},
+{"name": "Naïve realism", "link": "https:\/\/en.wikipedia.org\/wiki\/Naïve_realism_(psychology)"}
    
          ]
        }
@@ -94,19 +94,19 @@
        "name": "We find stories and patterns even in sparse data",
         "children": [
    
-         {"name": "Confabulation"},
-         {"name": "Clustering illusion"},
-         {"name": "Insensitivity to sample size"},
-         {"name": "Neglect of probability"},
-         {"name": "Anecdotal fallacy"},
-         {"name": "Illusion of validity"},
-         {"name": "Masked man fallacy"},
-         {"name": "Recency illusion"},
-         {"name": "Gambler's fallacy"},
-         {"name": "Hot-hand fallacy"},
-         {"name": "Illusory correlation"},
-         {"name": "Pareidolia"},
-         {"name": "Anthropomorphism"}
+{"name": "Confabulation", "link": "https:\/\/en.wikipedia.org\/wiki\/Confabulation"},
+{"name": "Clustering illusion", "link": "https:\/\/en.wikipedia.org\/wiki\/Clustering_illusion"},
+{"name": "Insensitivity to sample size", "link": "https:\/\/en.wikipedia.org\/wiki\/Insensitivity_to_sample_size"},
+{"name": "Neglect of probability", "link": "https:\/\/en.wikipedia.org\/wiki\/Neglect_of_probability"},
+{"name": "Anecdotal fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Anecdotal_evidence"},
+{"name": "Illusion of validity", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusion_of_validity"},
+{"name": "Masked man fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Masked-man_fallacy"},
+{"name": "Recency illusion", "link": "https:\/\/en.wikipedia.org\/wiki\/Recency_illusion"},
+{"name": "Gambler's fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Gambler's_fallacy"},
+{"name": "Hot-hand fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Hot-hand_fallacy"},
+{"name": "Illusory correlation", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusory_correlation"},
+{"name": "Pareidolia", "link": "https:\/\/en.wikipedia.org\/wiki\/Pareidolia"},
+{"name": "Anthropomorphism", "link": "https:\/\/en.wikipedia.org\/wiki\/Anthropomorphism#Psychology"}
    
         ]
        },
@@ -115,18 +115,18 @@
        "name": "We fill in characteristics from stereotypes, generalities, and prior histories",
         "children": [
    
-         {"name": "Group attribution error"},
-         {"name": "Ultimate attribution error"},
-         {"name": "Stereotyping"},
-         {"name": "Essentialism"},
-         {"name": "Functional fixedness"},
-         {"name": "Moral credential effect"},
-         {"name": "Just-world hypothesis"},
-         {"name": "Argument from fallacy"},
-         {"name": "Authority bias"},
-         {"name": "Automation bias"},
-         {"name": "Bandwagon effect"},
-         {"name": "Placebo effect"}
+{"name": "Group attribution error", "link": "https:\/\/en.wikipedia.org\/wiki\/Group_attribution_error"},
+{"name": "Ultimate attribution error", "link": "https:\/\/en.wikipedia.org\/wiki\/Ultimate_attribution_error"},
+{"name": "Stereotyping", "link": "https:\/\/en.wikipedia.org\/wiki\/Stereotype"},
+{"name": "Essentialism", "link": "https:\/\/en.wikipedia.org\/wiki\/Essentialism"},
+{"name": "Functional fixedness", "link": "https:\/\/en.wikipedia.org\/wiki\/Functional_fixedness"},
+{"name": "Moral credential effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Self-licensing"},
+{"name": "Just-world hypothesis", "link": "https:\/\/en.wikipedia.org\/wiki\/Just-world_hypothesis"},
+{"name": "Argument from fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Argument_from_fallacy"},
+{"name": "Authority bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Authority_bias"},
+{"name": "Automation bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Automation_bias"},
+{"name": "Bandwagon effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Bandwagon_effect"},
+{"name": "Placebo effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Placebo"}
         ]
        },
    
@@ -134,15 +134,15 @@
        "name": "We imagine things and people we're familiar with or fond of as better",
         "children": [
    
-          {"name": "Out-group homogeneity bias"},
-          {"name": "Cross-race effect"},
-          {"name": "In-group bias"},
-          {"name": "Halo effect"},
-          {"name": "Cheerleader effect"},
-          {"name": "Positivity effect"},
-          {"name": "Not invented here"},
-          {"name": "Reactive devaluation"},
-          {"name": "Well-traveled road effect"}
+{"name": "Out-group homogeneity bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Out-group_homogeneity"},
+{"name": "Cross-race effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Cross-race_effect"},
+{"name": "In-group bias", "link": "https:\/\/en.wikipedia.org\/wiki\/In-group_favoritism"},
+{"name": "Halo effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Halo_effect"},
+{"name": "Cheerleader effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Cheerleader_effect"},
+{"name": "Positivity effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Positivity_effect"},
+{"name": "Not invented here", "link": "https:\/\/en.wikipedia.org\/wiki\/Not_invented_here"},
+{"name": "Reactive devaluation", "link": "https:\/\/en.wikipedia.org\/wiki\/Reactive_devaluation"},
+{"name": "Well-traveled road effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Well_travelled_road_effect"}
    
         ]
        },
@@ -151,15 +151,15 @@
        "name": "We simplify probabilities and numbers to make them easier to think about",
         "children": [
    
-   {"name": "Mental accounting"},
-   {"name": "Appeal to probability fallacy"},
-   {"name": "Normalcy bias"},
-   {"name": "Murphy's Law"},
-   {"name": "Zero sum bias"},
-   {"name": "Survivorship bias"},
-   {"name": "Subadditivity effect"},
-   {"name": "Denomination effect"},
-   {"name": "Magic number 7+-2"}
+{"name": "Mental accounting", "link": "https:\/\/en.wikipedia.org\/wiki\/Mental_accounting"},
+{"name": "Appeal to probability fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Appeal_to_probability"},
+{"name": "Normalcy bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Normalcy_bias"},
+{"name": "Murphy's Law", "link": "https:\/\/en.wikipedia.org\/wiki\/Murphy's_law"},
+{"name": "Zero sum bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Zero-sum_thinking"},
+{"name": "Survivorship bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Survivorship_bias"},
+{"name": "Subadditivity effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Subadditivity_effect"},
+{"name": "Denomination effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Denomination_effect"},
+{"name": "Magic number 7+-2", "link": "https:\/\/en.wikipedia.org\/wiki\/The_Magical_Number_Seven,_Plus_or_Minus_Two"}
    
         ]
        },
@@ -168,12 +168,12 @@
        "name":"We think we know what other people are thinking",
         "children": [
    
-         {"name": "Illusion of transparency"},
-         {"name": "Curse of knowledge"},
-         {"name": "Spotlight effect"},
-         {"name": "Extrinsic incentive error"},
-         {"name": "Illusion of external agency"},
-         {"name": "Illusion of asymmetric insight"}
+{"name": "Illusion of transparency", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusion_of_transparency"},
+{"name": "Curse of knowledge", "link": "https:\/\/en.wikipedia.org\/wiki\/Curse_of_knowledge"},
+{"name": "Spotlight effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Spotlight_effect"},
+{"name": "Extrinsic incentive error", "link": "https:\/\/en.wikipedia.org\/wiki\/Extrinsic_incentives_bias"},
+{"name": "Illusion of external agency", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusion_of_external_agency"},
+{"name": "Illusion of asymmetric insight", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusion_of_asymmetric_insight"}
    
         ]
        },
@@ -182,20 +182,20 @@
        "name": "We project our current mindset and assumptions onto the past and future",
         "children": [
    
-         {"name": "Telescoping effect"},
-         {"name": "Rosy retrospection"},
-         {"name": "Hindsight bias"},
-         {"name": "Outcome bias"},
-         {"name": "Moral luck"},
-         {"name": "Declinism"},
-         {"name": "Impact bias"},
-         {"name": "Pessimism bias"},
-         {"name": "Planning fallacy"},
-         {"name": "Time-saving bias"},
-         {"name": "Pro-innovation bias"},
-         {"name": "Projection bias"},
-         {"name": "Restraint bias"},
-         {"name": "Self-consistency bias"}
+{"name": "Telescoping effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Telescoping_effect"},
+{"name": "Rosy retrospection", "link": "https:\/\/en.wikipedia.org\/wiki\/Rosy_retrospection"},
+{"name": "Hindsight bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Hindsight_bias"},
+{"name": "Outcome bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Outcome_bias"},
+{"name": "Moral luck", "link": "https:\/\/en.wikipedia.org\/wiki\/Moral_luck"},
+{"name": "Declinism", "link": "https:\/\/en.wikipedia.org\/wiki\/Declinism"},
+{"name": "Impact bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Impact_bias"},
+{"name": "Pessimism bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Optimism_bias#Pessimism_bias"},
+{"name": "Planning fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Planning_fallacy"},
+{"name": "Time-saving bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Time-saving_bias"},
+{"name": "Pro-innovation bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Pro-innovation_bias"},
+{"name": "Projection bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Affective_forecasting#Projection_bias"},
+{"name": "Restraint bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Restraint_bias"},
+{"name": "Self-consistency bias", "link": "https:\/\/en.wikipedia.org\/wiki\/List_of_cognitive_biases#Consistency_bias"}
    
         ]
        }
@@ -211,27 +211,27 @@
         "name": "To act, we must be confident we can make an impact and feel what we do is important",
         "children": [
    
-         {"name": "Overconfidence effect"},
-         {"name": "Social desirability bias"},
-         {"name": "Third-person effect"},
-         {"name": "False consensus effect"},
-         {"name": "Hard-easy effect"},
-         {"name": "Lake Wobegone effect"},
-         {"name": "Dunning-Kruger effect"},
-         {"name": "Egocentric bias"},
-         {"name": "Optimism bias"},
-         {"name": "Forer effect"},
-         {"name": "Barnum effect"},
-         {"name": "Self-serving bias"},
-         {"name": "Actor-observer bias"},
-         {"name": "Illusion of control"},
-         {"name": "Illusory superiority"},
-         {"name": "Fundamental attribution error"},
-         {"name": "Defensive attribution hypothesis"},
-         {"name": "Trait ascription bias"},
-         {"name": "Effort justification"},
-         {"name": "Risk compensation"},
-         {"name": "Peltzman effect"}
+{"name": "Overconfidence effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Overconfidence_effect"},
+{"name": "Social desirability bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Social_desirability_bias"},
+{"name": "Third-person effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Third-person_effect"},
+{"name": "False consensus effect", "link": "https:\/\/en.wikipedia.org\/wiki\/False_consensus_effect"},
+{"name": "Hard-easy effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Hard–easy_effect"},
+{"name": "Lake Wobegone effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Lake_Wobegon#The_Lake_Wobegon_effect"},
+{"name": "Dunning-Kruger effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Dunning–Kruger_effect"},
+{"name": "Egocentric bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Egocentric_bias"},
+{"name": "Optimism bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Optimism_bias"},
+{"name": "Forer effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Barnum_effect"},
+{"name": "Barnum effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Barnum_effect"},
+{"name": "Self-serving bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Self-serving_bias"},
+{"name": "Actor-observer bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Actor–observer_asymmetry#bias"},
+{"name": "Illusion of control", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusion_of_control"},
+{"name": "Illusory superiority", "link": "https:\/\/en.wikipedia.org\/wiki\/Illusory_superiority"},
+{"name": "Fundamental attribution error", "link": "https:\/\/en.wikipedia.org\/wiki\/Fundamental_attribution_error"},
+{"name": "Defensive attribution hypothesis", "link": "https:\/\/en.wikipedia.org\/wiki\/Defensive_attribution_hypothesis"},
+{"name": "Trait ascription bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Trait_ascription_bias"},
+{"name": "Effort justification", "link": "https:\/\/en.wikipedia.org\/wiki\/Effort_justification"},
+{"name": "Risk compensation", "link": "https:\/\/en.wikipedia.org\/wiki\/Risk_compensation"},
+{"name": "Peltzman effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Risk_compensation#Peltzman_effect"}
    
         ]
        },
@@ -240,9 +240,9 @@
         "name": "To stay focused, we favor the immediate, relatable thing in front of us",
         "children": [
    
-           {"name": "Hyperbolic discounting"},
-           {"name": "Appeal to novelty"},
-           {"name": "Identifiable victim effect"}
+{"name": "Hyperbolic discounting", "link": "https:\/\/en.wikipedia.org\/wiki\/Hyperbolic_discounting"},
+{"name": "Appeal to novelty", "link": "https:\/\/en.wikipedia.org\/wiki\/Appeal_to_novelty"},
+{"name": "Identifiable victim effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Identifiable_victim_effect"}
    
         ]
        },
@@ -251,19 +251,19 @@
         "name": "To get anything done, we tend to complete things we've invested time & energy in.",
         "children": [
    
-           {"name": "Sunk cost fallacy"},
-           {"name": "Irrational escalation"},
-           {"name": "Escalation of commitment"},
-           {"name": "Generation effect"},
-           {"name": "Loss aversion"},
-           {"name": "IKEA effect"},
-           {"name": "Unit bias"},
-           {"name": "Zero-risk bias"},
-           {"name": "Disposition effect"},
-           {"name": "Pseudocertainty effect"},
-           {"name": "Processing difficulty effect"},
-           {"name": "Endowment effect"},
-           {"name": "Backfire effect"}
+{"name": "Sunk cost fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Sunk_cost#Loss_aversion_and_the_sunk_cost_fallacy"},
+{"name": "Irrational escalation", "link": "https:\/\/en.wikipedia.org\/wiki\/Escalation_of_commitment"},
+{"name": "Escalation of commitment", "link": "https:\/\/en.wikipedia.org\/wiki\/Escalation_of_commitment"},
+{"name": "Generation effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Generation_effect"},
+{"name": "Loss aversion", "link": "https:\/\/en.wikipedia.org\/wiki\/Loss_aversion"},
+{"name": "IKEA effect", "link": "https:\/\/en.wikipedia.org\/wiki\/IKEA_effect"},
+{"name": "Unit bias", "link": "https:\/\/en.wikipedia.org\/wiki\/List_of_cognitive_biases"},
+{"name": "Zero-risk bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Zero-risk_bias"},
+{"name": "Disposition effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Disposition_effect"},
+{"name": "Pseudocertainty effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Pseudocertainty_effect"},
+{"name": "Processing difficulty effect", "link": "https:\/\/en.wikipedia.org\/wiki\/List_of_cognitive_biases#Processing_difficulty_effect"},
+{"name": "Endowment effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Endowment_effect"},
+{"name": "Backfire effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Confirmation_bias#backfire_effect"}
    
         ]
        },
@@ -272,12 +272,12 @@
         "name": "To avoid mistakes, we tend to preserve our autonomy and group status, and avoid irreversible decisions.",
         "children": [
    
-         {"name": "System justification"},
-         {"name": "Reverse psychology"},
-         {"name": "Reactance"},
-         {"name": "Decoy effect"},
-         {"name": "Social comparison bias"},
-         {"name": "Status quo bias"}
+{"name": "System justification", "link": "https:\/\/en.wikipedia.org\/wiki\/System_justification"},
+{"name": "Reverse psychology", "link": "https:\/\/en.wikipedia.org\/wiki\/Reverse_psychology"},
+{"name": "Reactance", "link": "https:\/\/en.wikipedia.org\/wiki\/Reactance_(psychology)"},
+{"name": "Decoy effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Decoy_effect"},
+{"name": "Social comparison bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Social_comparison_bias"},
+{"name": "Status quo bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Status_quo_bias"}
    
         ]
        },
@@ -286,16 +286,16 @@
         "name": "We favor options that appear simple or have more complete information over more complex, ambiguous options.",
         "children": [
    
-         {"name": "Ambiguity bias"},
-         {"name": "Information bias"},
-         {"name": "Belief bias"},
-         {"name": "Rhyme as reason effect"},
+{"name": "Ambiguity bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Ambiguity_effect"},
+{"name": "Information bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Information_bias_(psychology)"},
+{"name": "Belief bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Belief_bias"},
+{"name": "Rhyme as reason effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Rhyme-as-reason_effect"},
          {"name": "Bike-shedding effect"},
-         {"name": "Law of Triviality"},
-         {"name": "Delmore effect"},
-         {"name": "Conjunction fallacy"},
-         {"name": "Occam's razor"},
-         {"name": "Less-is-better effect"}
+{"name": "Law of Triviality", "link": "https:\/\/en.wikipedia.org\/wiki\/Law_of_triviality"},
+{"name": "Delmore effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Law_of_triviality"},
+{"name": "Conjunction fallacy", "link": "https:\/\/en.wikipedia.org\/wiki\/Conjunction_fallacy"},
+{"name": "Occam's razor", "link": "https:\/\/en.wikipedia.org\/wiki\/Occam's_razor"},
+{"name": "Less-is-better effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Less-is-better_effect"}
    
         ]
        }
@@ -312,12 +312,12 @@
         "name": "We edit and reinforce some memories after the fact",
         "children": [
    
-           {"name": "Misattribution of memory"},
-           {"name": "Source confusion"},
-           {"name": "Cryptomnesia"},
-           {"name": "False memory"},
-           {"name": "Suggestibility"},
-           {"name": "Spacing effect"}
+{"name": "Misattribution of memory", "link": "https:\/\/en.wikipedia.org\/wiki\/Misattribution_of_memory"},
+{"name": "Source confusion", "link": "https:\/\/en.wikipedia.org\/wiki\/Misattribution_of_memory#Source_confusion"},
+{"name": "Cryptomnesia", "link": "https:\/\/en.wikipedia.org\/wiki\/Cryptomnesia"},
+{"name": "False memory", "link": "https:\/\/en.wikipedia.org\/wiki\/False_memory"},
+{"name": "Suggestibility", "link": "https:\/\/en.wikipedia.org\/wiki\/Suggestibility"},
+{"name": "Spacing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Spacing_effect"}
    
         ]
        },
@@ -326,12 +326,12 @@
         "name": "We discard specifics to form generalities",
         "children": [
    
-           {"name": "Implicit associations"},
-           {"name": "Implicit stereotypes"},
-           {"name": "Stereotypical bias"},
-           {"name": "Prejudice"},
-           {"name": "Negativity bias"},
-           {"name": "Fading affect bias"}
+{"name": "Implicit associations", "link": "https:\/\/en.wikipedia.org\/wiki\/Implicit_stereotype"},
+{"name": "Implicit stereotypes", "link": "https:\/\/en.wikipedia.org\/wiki\/Implicit_stereotype"},
+{"name": "Stereotypical bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Implicit_stereotype"},
+{"name": "Prejudice", "link": "https:\/\/en.wikipedia.org\/wiki\/Prejudice"},
+{"name": "Negativity bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Negativity_bias"},
+{"name": "Fading affect bias", "link": "https:\/\/en.wikipedia.org\/wiki\/Fading_affect_bias"}
    
         ]
        },
@@ -340,19 +340,19 @@
         "name": "We reduce events and lists to their key elements",
         "children": [
    
-           {"name": "Peak–end rule"},
-           {"name": "Leveling and sharpening"},
-           {"name": "Misinformation effect"},
-           {"name": "Serial recall effect"},
-           {"name": "List-length effect"},
-           {"name": "Duration neglect"},
-           {"name": "Modality effect"},
-           {"name": "Memory inhibition"},
-           {"name": "Primacy effect"},
-           {"name": "Recency effect"},
-           {"name": "Part-list cueing effect"},
-           {"name": "Serial position effect"},
-           {"name": "Suffix effect"}
+{"name": "Peak–end rule", "link": "https:\/\/en.wikipedia.org\/wiki\/Peak–end_rule"},
+{"name": "Leveling and sharpening", "link": "https:\/\/en.wikipedia.org\/wiki\/Leveling_and_sharpening"},
+{"name": "Misinformation effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Misinformation_effect"},
+{"name": "Serial recall effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Recall_(memory)#Serial_recall"},
+{"name": "List-length effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Recall_(memory)#Serial_recall"},
+{"name": "Duration neglect", "link": "https:\/\/en.wikipedia.org\/wiki\/Duration_neglect"},
+{"name": "Modality effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Modality_effect"},
+{"name": "Memory inhibition", "link": "https:\/\/en.wikipedia.org\/wiki\/Memory_inhibition"},
+{"name": "Primacy effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Serial-position_effect#Primacy_effect"},
+{"name": "Recency effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Serial-position_effect#Recency_effect"},
+{"name": "Part-list cueing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Memory_inhibition#Part-set_cuing_effect"},
+{"name": "Serial position effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Serial-position_effect"},
+{"name": "Suffix effect", "link": "https:\/\/en.wikipedia.org\/wiki\/List_of_cognitive_biases#Suffix_effect"}
    
         ]
        },
@@ -361,12 +361,12 @@
         "name": "We store memories differently based on how they were experienced",
         "children": [
    
-         {"name": "Levels of processing effect"},
-         {"name": "Absent-mindedness"},
-         {"name": "Testing effect"},
-         {"name": "Next-in-line effect"},
-         {"name": "Google effect"},
-         {"name": "Tip of the tongue phenomenon"}
+{"name": "Levels of processing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Levels-of-processing_effect"},
+{"name": "Absent-mindedness", "link": "https:\/\/en.wikipedia.org\/wiki\/Absent-mindedness"},
+{"name": "Testing effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Testing_effect"},
+{"name": "Next-in-line effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Next-in-line_effect"},
+{"name": "Google effect", "link": "https:\/\/en.wikipedia.org\/wiki\/Google_effect"},
+{"name": "Tip of the tongue phenomenon", "link": "https:\/\/en.wikipedia.org\/wiki\/Tip_of_the_tongue"}
    
         ]
        }

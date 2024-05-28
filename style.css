@@ -42,7 +42,7 @@ section#main {
 }
 li {
     margin: 0em 0 0.5em 0;
-    padding: 1em 0 1em 0;
+    padding: 1em 0 1em 1em;
     list-style-type: none;
 }
 
