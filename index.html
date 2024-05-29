@@ -35,7 +35,9 @@
         </div>
         <div class="right-col">
             <h1 id="sectiontitle"></h1>
-            <p id="wikilink" style="overflow-x: hidden;"></p>
+            <div id="ptags">
+
+            </div>
         </div>
     </section>
 </body>
@@ -48,14 +50,15 @@
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                 var data = JSON.parse(xhttp.responseText);
-                console.log(data)
+                // console.log(data)
                 globaldata = data;
 
 
-                            
+                const ptags = document.getElementById("ptags")
                 var listHTML = `<div class="paddingdiv" style="min-height: 100vh; display: block;"></div>`
                 var section_count = 0
                 var count = 0
+                var numbercount = 0; // counter used as id for lis
                 for (let quickphrase of data.children) {
                     // console.log(quickphrase.name, quickphrase.children)
                     section_count+=1
@@ -67,7 +70,26 @@
                         // listHTML+=`<ul class="bias sc${section_count} c${count}">`
                         for (let bias of half_bias.children) {
                             // console.log(bias)
-                            listHTML+= `<li class="biasli sc${section_count} c${count}">${bias.name} <p style="display:none;">${bias.link}</p></li>`
+                            numbercount+=1;
+                            listHTML+= `<li id="b${numbercount}" class="biasli sc${section_count} c${count}">${bias.name}</li>`
+                            contentdiv = document.createElement("div")
+                            contentdiv.id = `d${numbercount}`
+                            contentdiv.style.display = "none"
+                            contentdiv.classList.add("content-div")
+                            for (let contentptag of bias.ptags) {
+                                p = document.createElement("p")
+                                p.innerText = contentptag
+                                contentdiv.appendChild(p)
+                            }
+                            p = document.createElement("p")
+                            p.innerText = `You can learn more with the wikipedia page here: `
+                            a = document.createElement("a")
+                            a.href = bias.link
+                            a.innerText = bias.link
+                            p.appendChild(a)
+                            p.style.overflowX = "hidden"
+                            document.getElementById("ptags").appendChild(contentdiv).appendChild(p)
+                            
                         }
                         // listHTML+=`</ul>`
                     }
@@ -80,6 +102,8 @@
                 document.getElementById("sectiontitle").innerText = globaldata.children[0].name;
                 document.getElementById("sectiontitle").classList.add("titlesectionanim")
                 document.getElementsByClassName("right-col")[0].classList.add("sc1")
+
+                
             }
             };
             xhttp.open("GET", "./biases.json", true);
@@ -126,14 +150,19 @@
                 for (li of lis) {
                     const rect = li.getBoundingClientRect()
                     if (rect.y < vh*0.5+20 && rect.y > vh*0.5-20) {
-                        console.log(li, "X:" + rect.x + " ,Y:" + rect.y)
-                        console.log(li.children[0].innerHTML)
-                        document.getElementById("wikilink").innerHTML = `Check out the wikipedia page here: <br><a href=${li.children[0].innerHTML}>${li.children[0].innerHTML}</a>`
-                    }
+                        // console.log(li, "X:" + rect.x + " ,Y:" + rect.y)
+                        console.log(li.id, li.id.replace("b", ""))
+                        const d = document.getElementById(`d${li.id.replace("b", "")}`)
+                        divs = document.getElementsByClassName("content-div")
+                        for (let div of divs) {
+                            div.style.display = "none"
+                        }
+                        d.style.display = "block"
 
                 }
                 
             }
+        }
             
             
 

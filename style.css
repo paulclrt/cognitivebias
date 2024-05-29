@@ -24,6 +24,22 @@ section#main {
     width: 33%;
 }
 
+.right-col {
+    overflow: hidden;
+    display: grid;
+    grid-template: 1fr 9fr  / 1fr;
+    align-items: center;
+}
+.right-col h1 {
+    text-align: center;
+}
+
+.right-col p {
+    font-size: 0.8em;
+    overflow: hidden;
+    max-height: 90vh;
+}
+
 .middle-col {
     height: 90vh;
     width: 100%;
